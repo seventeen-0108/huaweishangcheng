@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>详情</title>
+    <link rel="stylesheet" href="./css/basic.css">
+    <link rel="stylesheet" href="./css/list.css">
+    <link rel="stylesheet" href="./tubiao/font_2608511_2fle9fnqlek/iconfont.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <style>
+    body{
+        background-color: #f5f5f5;
+    }
+    .header{
+    width: 100%;
+    height: 100%;
+    background-color: #2e2828;
+    line-height: 36px;
+    position: relative;
+    z-index: 411;
+}
+
+.layout{
+    width: 1200px;
+    height: 36px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    background-color: #2e2828;
+}
+.header a{
+    color: #afafaf;
+}
+.header a:hover{
+    color: #fff;
+}
+.s-sub{
+    width: 471px;
+    height: 36px;
+    float: left;
+    position: relative;
+}
+.s-sub ul li{
+    float: left;
+    padding: 0 8px;
+    position: relative;
+    font-size: 12px;
+}
+.s-sub a{
+    text-decoration: none;
+}
+.s-sub li:before{
+    content: "";
+    width:2px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 0;
+    background-color: #414141;
+}
+.layout .li1:before{
+   display: none;
+}
+.s-main{
+  float: right;
+  position: relative;
+}
+.s-main ul li{
+ float: left;
+ position: relative;
+ padding: 0 8px;
+font-size: 12px;
+ 
+}
+.s-main a{
+    text-decoration: none;
+}
+.gwc a:hover{
+    color: red;
+}
+.nav{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    line-height: 1.5;
+}
+.column{
+    width: 1200px;
+    height: 74px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.column-left{
+    float: left;
+}
+.column-left-logo{
+    float: left;
+    margin-right: 34px;
+    position: relative;
+    
+    z-index: 1;
+}
+
+.column-left-logo img{
+    width: 205px;
+    height: 36px;
+    margin-top: 20px;
+}
+.columnr {
+    float: left;
+}
+.columnr ul{
+    float: left;
+}
+.columnr a{
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+}
+.columnr li{
+    float: left;
+    line-height: 74px;
+    font-size: 16px;
+    margin-right: 27px;
+    
+}
+.columnr a:hover{
+    color: #ca141d;
+}
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+.content{
+    color: #666;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    margin-left: 1px;
+    line-height: 1.5;
+}
+.content h1{
+    font-size: 12px;
+    margin-left: 20px;
+}
+.content a{
+    text-decoration: none;
+    color: #666;
+}
+.content small{
+    color: #333;
+}
+.scenics img{
+    width: 100%;
+    height: 150px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="layout">
+            <!-- 导航栏左 -->
+            <div class="s-sub">
+                <ul>
+                    <li class="li1"><a href="#">首页</a></li>
+                    <li><a href="#">华为官网</a></li>
+                    <li><a href="#">花粉俱乐部</a></li>
+                    <li><a href="#">v码(优购码)</a></li>
+                    <li><a href="#">企业购</a></li>
+                    <li><a href="#">select Region</a></li>
+                    <li><a href="#">更多精彩</a></li>
+                </ul>
+            </div>
+            <!-- 导航栏右 -->
+            <div class="s-main">
+                <ul>
+                    <li class="li2"><a href="./login.html">请登录<a href="./registered.html">&nbsp;&nbsp;注册</a></a></li>
+                    <li><a href="#">我的订单</a></li>
+                    <li><a href="#">客户服务</a></li>
+                    <li><a href="#">网站导航</a></li>
+                    <li><a href="#">手机版</a></li>
+                    <li class="gwc"><a href="#"><i class="iconfont">&#xe63f;</i>购物车</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- logo 导航栏 -->
+    <div class="nav">
+        <div class="column">
+            <!-- 导航栏左及logo -->
+            <div class="column-left">
+                <div class="column-left-logo"><a href="#"> <img src="./imges/hwlogo.png" alt=""></a></div>
+                <div class="columnr">
+                    <ul>
+                        <li><a href="#">华为专区</a></li>
+                        <li><a href="#">莫塞尔专区</a></li>
+                        <li><a href="#">华为智选</a></li>
+                        <li><a href="#">鸿蒙智联</a></li>
+                        <li><a href="#">福利中心</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cloumn-right">
+                <div class="search-bar">
+                    <div class="search-bar-form">
+                             <form action="">
+                                 <input type="text" class="text">
+                                 <input type="submit" class="submit iconfont" value="&#xe7d2;">
+                             </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrap" id="scenics">
+        <div class="content">
+            <h1><a href="./index.html">首页</a> &nbsp;>&nbsp;<small>手机</small></h1>
+            <div class="container fluid">
+                <div class="row scenics">
+                    
+                    <!-- <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="thumbnail">
+                            <img src="http://5b0988e595225.cdn.sohucs.com/images/20171222/014e9fc392984995bb10bf8b40385bb0.jpeg" alt="...">
+                            <div class="caption">
+                                <h3>颐和园</h3>
+                                <p>阿斯顿发斯蒂芬阿斯蒂芬</p>
+                                <p>
+                                    <a href="#" class="btn btn-default" role="button">查看详情</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page"></div>
+</body>
+</html>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+<script src="./js/layer/layer.js"></script>
+<script src="./js/validate/jquery.validate.min.js"></script>
+<script src="./js/validate/additional-methods.min.js"></script>
+<script src="./js/ajax.js"></script>
+<script src="./js/cookie.js"></script>
+<script src="./js/checkLogin1.js"></script>
+<script src="./js/page.js"></script>
+<script src="./js/list.js"></script>

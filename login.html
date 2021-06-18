@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>华为登录</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/basic.css">
+</head>
+<body>
+    <div class="header">
+         <div class="head-center">
+            <div class="main-logo">
+                <img src="./imges/login4_03.jpg" alt="">
+            </div>
+            <div class="website-name">
+                <b class="split-line"></b>
+                <b class="adHeadTitle">华为商城</b>
+            </div>
+         </div>
+         <div class="hwid-root">
+             <div class="hwid-login-root">
+                 <div class="hwid-fullpage-container">
+                     <div class="hwid-full-head">
+                         <span class="hwid-text">
+                             华为账号登录
+                         </span>
+                     </div>
+                     <div class="dl">
+                         <span class="hwid-fullpage-left">
+                             <div class="hwid-imgDIv">
+                                 <img src="./imges/erweima.jpg" alt="">
+                             </div>
+                             <div class="hwid-full-qrcode">
+                                 <span>若您使用华为手机，请进入“设置”>“华为账号”扫码登录。</span>
+                             </div>
+                         </span>
+                         <span class="hwid-fullpage-split-line"></span>
+                         <span class="hwid-fullpage-right">
+                             <form class="hwid-input-border">
+                                 <div class="hwid-input-wrap">
+                                     <input type="text" autocomplete="off" maxlength="150px" placeholder="手机号/邮件地址/账号名" class="hwid-input" id="username" name="username">
+                                 </div>
+                                 <div class="hwid-input-wrap"> 
+                                     <input type="password" autocomplete="off" maxlength="32" placeholder="密码"  class="hwid-input-pwd" id="password" name="password">
+                                 </div>
+                                 <span class="hwid-link-primary">
+                                     <span class="hwid-text-container">
+                                         <span>短信验证码登录</span>
+                                     </span>
+                                 </span>
+                                 <div class="hwid-btn">
+                                     <button id="btn">登录</button>
+                                 </form>
+                                 <div class="hwid-full-link">
+                                     <a href="./registered.html"><span>注册</span></a>
+                                     <span>忘记密码</span>
+                                     <span>遇到问题</span>
+                                 </div>
+                                 <div class="hwid-third-list">
+                                     <span><img src="./imges/logint_07.jpg" alt=""></span>
+                                     <span><img src="./imges/logint1_03.jpg" alt=""></span>
+                                     <span><img src="./imges/logint1_05.jpg" alt=""></span>
+                                 </div>
+                             </div>
+                         </span>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="banner-buttom">
+             <div class="ft">
+                 <p style="text-align: center;line-height: 20px;height: 20px;margin-top: 30px;">
+                     <a href="#">华为用户协议</a>
+                     <em>|</em>
+                     <a href="#">关于账号隐私声明</a>
+                     <em>|</em>
+                     <a href="#">Cookies</a>
+                     
+                 </p>
+                 
+             </div>
+             <p style="line-height: 12px;height: 12px;margin-top: 10px;color: #000;opacity: 0.3;text-align: center;">华为账号 版权所有&copy 2011-2011</p>
+         </div>
+    </div>
+    
+</body>
+<script src="./jq/jquery-1.11.3.min.js"></script>
+<script src="./js/layer/layer.js"></script>
+<script src="./js/validate/jquery.validate.min.js"></script>
+<script src="./js/validate/additional-methods.min.js"></script>
+<script src="./js/ajax.js"></script>
+<script src="./js/cookie.js"></script>
+<script src="js/login.js"></script>
+
+<script>
+    console.log($('.hwid-input-border'))
+console.log($('#btn'))
+</script>
+</html>

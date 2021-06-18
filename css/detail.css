@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f5f5f5;
+}
+.header{
+    width: 100%;
+    height: 100%;
+    background-color: #2e2828;
+    line-height: 36px;
+    position: relative;
+    z-index: 411;
+}
+
+.layout{
+    width: 1200px;
+    height: 36px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    background-color: #2e2828;
+}
+.header a{
+    color: #afafaf;
+}
+.header a:hover{
+    color: #fff;
+}
+.s-sub{
+    width: 471px;
+    height: 36px;
+    float: left;
+    position: relative;
+    
+}
+.s-sub ul li{
+    float: left;
+    padding: 0 8px;
+    position: relative;
+}
+
+.s-sub li:before{
+    content: "";
+    width:2px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 0;
+    background-color: #414141;
+}
+.layout .li1:before{
+   display: none;
+}
+.s-main{
+  float: right;
+  position: relative;
+}
+
+.gwc a:hover{
+    color: red;
+}
+.s-main ul li{
+ float: left;
+ position: relative;
+ padding: 0 8px;
+
+ 
+}
+.s-main  li:before{
+    content: "";
+    width:2px;
+    height: 10px;
+    display: block;
+    position: absolute;
+    top: 13px;
+    left: 0;
+    background-color: #414141;
+}
+.layout .li2:before{
+    display: none ;
+}
+.nav{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    line-height: 1.5;
+}
+.column{
+    width: 1200px;
+    height: 74px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.column-left{
+    float: left;
+}
+.column-left-logo{
+    float: left;
+    margin-right: 34px;
+    position: relative;
+    
+    z-index: 1;
+}
+
+.column-left-logo img{
+    width: 205px;
+    height: 36px;
+    margin-top: 20px;
+}
+.columnr {
+    float: left;
+}
+.columnr ul{
+    float: left;
+}
+.columnr li{
+    float: left;
+    line-height: 74px;
+    font-size: 16px;
+    margin-right: 27px;
+    
+}
+.columnr a:hover{
+    color: #ca141d;
+}
+.column-right{
+    float: right;
+}
+.search-bar{
+    border-radius: 16px 16px 16px 16px;
+    float: right;
+    background-color: #fff;
+    position: relative;
+    margin-top: 20px;
+}
+.search-bar-form{
+    width: 238px;
+    height: 28px;
+    border-radius: 15px;
+    line-height: 1px;
+    background-color: #f0f0f0;
+    border: 1px solid #f0f0f0;
+    position: relative;
+}
+.text{
+    border: 0;
+    width: 205px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 15px;
+    float: left;
+    background: transparent;
+    outline: none;
+}
+.submit{
+    width: 35px;
+    height: 30px;
+    border: 0;
+    overflow: hidden;
+    position: absolute;
+    background: transparent;
+    padding-right: 10px;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    cursor: pointer;
+}
